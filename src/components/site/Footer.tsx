@@ -1,5 +1,14 @@
 import logo from "@/assets/logiflow-logo.png";
 import { MapPin, Mail, Phone, Globe } from "lucide-react";
+import { Link } from "react-router-dom";
+
+const quickLinks = [
+  { label: "Home", to: "/" },
+  { label: "About", to: "/about" },
+  { label: "Services", to: "/services" },
+  { label: "Industries", to: "/industries" },
+  { label: "Contact", to: "/contact" },
+];
 
 export const Footer = () => (
   <footer className="bg-navy-deep py-16 text-white/70">
