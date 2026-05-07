@@ -34,8 +34,8 @@ export const Founders = () => (
         {founders.map((f) => (
           <div key={f.name} className="group relative flex flex-col gap-6 overflow-hidden rounded-2xl border border-border/60 bg-soft-gradient p-6 transition hover:-translate-y-1 hover:shadow-lift sm:flex-row sm:items-start sm:p-8">
             <div className="absolute inset-x-0 top-0 h-1 bg-accent-gradient opacity-0 transition group-hover:opacity-100" />
-            <div className="relative h-32 w-32 shrink-0 overflow-hidden rounded-2xl shadow-soft sm:h-36 sm:w-36">
-              <img src={f.img} alt={`${f.name}, ${f.role} of Logiflow`} loading="lazy" width={800} height={1000} className="h-full w-full object-cover" />
+             <div className="relative w-32 shrink-0 overflow-hidden rounded-2xl shadow-soft sm:w-36 ">
+              <img src={f.img} alt={`${f.name}, ${f.role} of Logiflow`} loading="lazy" className="h-full w-full " />
             </div>
             <div>
               <h3 className="text-xl font-bold text-navy">{f.name}</h3>
