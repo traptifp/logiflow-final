@@ -42,8 +42,14 @@ export const Hero = () => (
           <Button
             size="lg"
             className="h-14 rounded-xl bg-accent-gradient px-8 text-base font-semibold text-white shadow-glow transition hover:scale-[1.02] hover:opacity-95"
+            onClick={() => {
+              document.getElementById("contact")?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
           >
-            Request a Call Back <ArrowRight className="ml-1" />
+            Request a Call Back
+            <ArrowRight className="ml-1" />
           </Button>
           <Button
             size="lg"
