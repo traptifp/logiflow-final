@@ -76,7 +76,7 @@ export const Hero = () => (
             <CheckCircle2 className="h-4 w-4 text-teal" /> Multi-courier routing
           </div>
           <div className="flex items-center gap-2">
-            <CheckCircle2 className="h-4 w-4 text-teal" /> 27,000+ pin codes
+            <CheckCircle2 className="h-4 w-4 text-teal" /> Pan-India Coverage
           </div>
           <div className="flex items-center gap-2">
             <CheckCircle2 className="h-4 w-4 text-teal" /> Since 1959 legacy
