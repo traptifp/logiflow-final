@@ -13,7 +13,6 @@ export const FinalCta = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Prevent multiple clicks
     if (loading) return;
 
     setLoading(true);
