@@ -19,13 +19,16 @@ export const FinalCta = () => {
     const toastId = toast.loading("Sending inquiry Please wait...");
 
     try {
-      const response = await fetch("https://logiflow-website-backend.vercel.app/api/send", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const response = await fetch(
+        "https://logiflow-website-backend.vercel.app/api/send",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
         },
-        body: JSON.stringify(formData),
-      });
+      );
 
       const data = await response.json();
 
@@ -79,16 +82,22 @@ export const FinalCta = () => {
               shipping with speed, reliability and efficiency.
             </p>
             <div className="mt-9 flex flex-wrap gap-4">
-              <Button
+              {/* <Button
                 size="lg"
                 className="h-14 rounded-xl bg-white px-8 text-base font-semibold text-navy hover:bg-white/90"
               >
                 Request a Call Back <ArrowRight />
-              </Button>
+              </Button> */}
               <Button
                 size="lg"
                 variant="outline"
                 className="h-14 rounded-xl border-white/25 bg-white/5 px-8 text-base font-medium text-white backdrop-blur hover:bg-white/15 hover:text-white"
+                onClick={() =>
+                  window.open(
+                    "https://api.whatsapp.com/send?phone=916262762626",
+                    "_blank",
+                  )
+                }
               >
                 <MessageCircle /> WhatsApp us
               </Button>
@@ -120,7 +129,7 @@ export const FinalCta = () => {
                   className="text-[11px] font-bold uppercase tracking-[0.18em] text-navy/70"
                   htmlFor="name"
                 >
-                  Name
+                  Name *
                 </label>
                 <input
                   id="name"
@@ -140,7 +149,7 @@ export const FinalCta = () => {
                   className="text-[11px] font-bold uppercase tracking-[0.18em] text-navy/70"
                   htmlFor="phone"
                 >
-                  Phone
+                  Phone *
                 </label>
                 <input
                   id="phone"
@@ -160,7 +169,7 @@ export const FinalCta = () => {
                   className="text-[11px] font-bold uppercase tracking-[0.18em] text-navy/70"
                   htmlFor="email"
                 >
-                  Email
+                  Email *
                 </label>
                 <input
                   id="email"
