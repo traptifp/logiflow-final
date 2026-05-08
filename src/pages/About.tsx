@@ -88,8 +88,8 @@ const About = () => (
     <Section eyebrow="Leadership" title={<>Built on <span className="text-gradient-teal">Experience</span>. Driven by Execution.</>} soft>
       <div className="grid gap-6 md:grid-cols-2">
         {[
-          { name: "Puneet Bagga", role: "Logistics Expert", points: ["25+ years of logistics industry experience", "Family business legacy since 1959", "Strong operational and network expertise"] },
-          { name: "Rohit Chadha", role: "Operations & Technology Lead", points: ["Background in weighing scale (Dharam Kanta) operations", "Experience in team management and coordination", "Focused on operational efficiency"] },
+          { name: "Puneet Bagga", role: "Logistics Expert", points: ["25+ years of logistics industry experience", "Family business legacy since 1956", "Strong operational and network expertise"] },
+          { name: "Rohit Chadha", role: "Operations & Technology Lead", points: ["Background in weighing bridges operations", "Experience in team management and coordination", "Focused on operational efficiency"] },
         ].map((l) => (
           <div key={l.name} className="rounded-2xl border border-border/60 bg-white p-8 shadow-soft">
             <div className="flex items-center gap-4">

@@ -72,18 +72,18 @@ export const Services = () => (
               <div className="grid grid-cols-2 gap-x-10 gap-y-4">
                 <div>
                   <div className="font-display text-3xl font-black text-white">
-                    Anywhere-to-Anywhere Shipping Across India
+                    Anywhere-to-Anywhere 
                   </div>
                   <div className="text-xs uppercase tracking-widest text-white/55">
-                    pin codes served
+                    Shipping Across India
                   </div>
                 </div>
                 <div>
                   <div className="font-display text-3xl font-black text-white">
-                    Multi-Courier Aggregator Network
+                    Multi-Courier 
                   </div>
                   <div className="text-xs uppercase tracking-widest text-white/55">
-                    courier partners
+                    Aggregator Network
                   </div>
                 </div>
               </div>

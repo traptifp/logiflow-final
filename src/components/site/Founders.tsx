@@ -6,13 +6,13 @@ const founders = [
   {
     name: "Puneet Bagga",
     role: "Co-founder & Director",
-    bio: "25+ years of logistics experience with a family business legacy since 1959. Deep operational expertise across cargo and distribution networks, with a strong focus on execution and reliability.",
+    bio: "25+ years of logistics experience with a family business legacy since 1956. Deep operational expertise across cargo and distribution networks, with a strong focus on execution and reliability.",
     img: founder1,
   },
   {
     name: "Rohit Chadha",
     role: "Co-founder & Director",
-    bio: "Background in weighing scale (Dharam Kanta) operations. Strong expertise in operations and team coordination, with a relentless focus on process efficiency and system improvement.",
+    bio: "Background in weighing bridges operations. Strong expertise in operations and team coordination, with a relentless focus on process efficiency and system improvement.",
     img: founder2,
   },
 ];

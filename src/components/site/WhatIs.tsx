@@ -11,7 +11,7 @@ export const WhatIs = () => (
           <div className="absolute inset-0 bg-gradient-to-tr from-navy/30 via-transparent to-transparent" />
         </div>
         <div className="absolute -bottom-6 -right-6 hidden rounded-2xl bg-white p-5 shadow-lift md:block">
-          <div className="text-3xl font-extrabold text-navy">Since 1959</div>
+          <div className="text-3xl font-extrabold text-navy">Since 1956</div>
           <div className="text-xs font-medium uppercase tracking-widest text-muted-foreground">family legacy</div>
         </div>
       </div>

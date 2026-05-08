@@ -17,9 +17,9 @@ const Index = () => (
     <TrustStrip />
     <WhatIs />
     <Services />
+    <Industries />
     <WhyUs />
     <HowItWorks />
-    <Industries />
     <Founders />
     <FinalCta />
     <Footer />
