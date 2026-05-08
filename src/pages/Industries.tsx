@@ -35,7 +35,7 @@ const Industries = () => (
       subtitle="Logiflow Pvt. Ltd. supports a wide range of industries with scalable, multi-courier logistics solutions designed for consistent and efficient delivery across India."
     />
 
-    <section className="bg-white py-24">
+    <section className="bg-white py-12 md:py-24">
       <div className="mx-auto max-w-4xl px-6 text-center lg:px-12">
         <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Overview</span>
         <h2 className="mt-4 font-display text-3xl font-black tracking-tight text-navy sm:text-4xl lg:text-[2.75rem]">
@@ -47,7 +47,7 @@ const Industries = () => (
       </div>
     </section>
 
-    <section className="bg-soft-gradient py-24">
+    <section className="bg-soft-gradient py-12 md:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         <div className="max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Sectors</span>
@@ -55,9 +55,9 @@ const Industries = () => (
             Industries we <span className="text-gradient-teal">support</span>
           </h2>
         </div>
-        <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-6 md:mt-12 grid gap-3 md:gap-6 md:grid-cols-2 lg:grid-cols-3">
           {industries.map((i) => (
-            <div key={i.t} className="rounded-2xl border border-border/60 bg-white p-7 shadow-soft transition hover:-translate-y-1 hover:border-teal/30 hover:shadow-lift">
+            <div key={i.t} className="rounded-2xl border border-border/60 bg-white p-5 md:p-7 shadow-soft transition hover:-translate-y-1 hover:border-teal/30 hover:shadow-lift">
               <div className="grid h-12 w-12 place-items-center rounded-xl bg-accent-gradient text-white shadow-glow">
                 <i.icon className="h-5 w-5" />
               </div>
@@ -69,7 +69,7 @@ const Industries = () => (
       </div>
     </section>
 
-    <section className="bg-white py-24">
+    <section className="bg-white py-12 md:py-24">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-2 lg:px-12">
         <div>
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">How we support</span>
@@ -87,7 +87,7 @@ const Industries = () => (
             ))}
           </ul>
         </div>
-        <div className="rounded-3xl border border-border/60 bg-soft-gradient p-8 shadow-soft">
+        <div className="rounded-3xl border border-border/60 bg-soft-gradient p-5 md:p-8 shadow-soft">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Why it matters</span>
           <h3 className="mt-3 font-display text-2xl font-extrabold tracking-tight text-navy">
             Why industry alignment improves delivery efficiency

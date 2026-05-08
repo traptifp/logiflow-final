@@ -70,7 +70,7 @@ export const ContactForm = () => {
   return (
     <>
       <form
-        className="relative rounded-3xl border border-white/10 bg-white p-8 text-navy shadow-lift sm:p-10"
+        className="relative rounded-3xl border border-white/10 bg-white p-5 md:p-8 text-navy shadow-lift sm:p-10"
         onSubmit={handleSubmit}
       >
         <div className="pointer-events-none absolute -inset-px -z-10 rounded-3xl bg-gradient-to-br from-teal-bright/40 via-transparent to-teal/30 opacity-60 blur-xl" />

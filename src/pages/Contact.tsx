@@ -56,7 +56,7 @@ const Contact = () => (
     </section>
 
     {/* Form */}
-    <section className="bg-soft-gradient py-24">
+    <section className="bg-soft-gradient py-12 md:py-24">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[1fr_1.1fr] lg:px-12">
         <div>
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Get in touch</span>
@@ -83,7 +83,7 @@ const Contact = () => (
     </section>
 
     {/* What happens next */}
-    <section className="bg-white py-24">
+    <section className="bg-white py-12 md:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         <div className="max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">What happens next</span>
@@ -91,9 +91,9 @@ const Contact = () => (
             From request to <span className="text-gradient-teal">first shipment</span>
           </h2>
         </div>
-        <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-6 md:mt-12 grid gap-3 md:gap-6 md:grid-cols-2 lg:grid-cols-4">
           {next.map((s) => (
-            <div key={s.n} className="rounded-2xl border border-border/60 bg-white p-7 shadow-soft">
+            <div key={s.n} className="rounded-2xl border border-border/60 bg-white p-5 md:p-7 shadow-soft">
               <div className="grid h-12 w-12 place-items-center rounded-xl bg-accent-gradient text-white shadow-glow">
                 <span className="font-display text-base font-extrabold">{s.n}</span>
               </div>
@@ -105,13 +105,13 @@ const Contact = () => (
       </div>
     </section>
 
-    <section className="bg-soft-gradient py-24">
+    <section className="bg-soft-gradient py-12 md:py-24">
       <div className="mx-auto max-w-5xl px-6 lg:px-12">
         <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Why businesses contact us</span>
         <h2 className="mt-4 font-display text-3xl font-black tracking-tight text-navy sm:text-4xl">
           Why businesses <span className="text-gradient-teal">reach out to Logiflow</span>
         </h2>
-        <ul className="mt-8 grid gap-3 sm:grid-cols-2">
+        <ul className="mt-5 md:mt-8 grid gap-3 sm:grid-cols-2">
           {why.map((w) => (
             <li key={w} className="flex items-start gap-3 rounded-2xl border border-border/60 bg-white p-5 text-[15px] text-navy/85 shadow-soft">
               <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-teal" /> {w}

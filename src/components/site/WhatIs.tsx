@@ -2,7 +2,7 @@ import { Layers } from "lucide-react";
 import warehouseOps from "@/assets/warehouse-ops.jpg";
 
 export const WhatIs = () => (
-  <section id="about" className="relative bg-white py-28">
+  <section id="about" className="relative bg-white py-12 md:py-24">
     <div className="mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-2 lg:px-12">
       <div className="relative">
         <div className="absolute -left-6 -top-6 h-32 w-32 rounded-3xl bg-accent-gradient/20 blur-2xl" />

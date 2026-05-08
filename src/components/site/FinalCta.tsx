@@ -59,7 +59,7 @@ export const FinalCta = () => {
     <>
       <section
         id="contact"
-        className="relative isolate overflow-hidden bg-cta-gradient py-28 text-white"
+        className="relative isolate overflow-hidden bg-cta-gradient py-12 md:py-24 text-white"
       >
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -top-32 left-1/4 h-96 w-96 rounded-full bg-teal-bright/20 blur-3xl animate-pulse-glow" />
@@ -73,15 +73,15 @@ export const FinalCta = () => {
             <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal-bright">
               Get Started
             </span>
-            <h2 className="mt-4 font-display text-4xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-[3.5rem]">
+            <h2 className="mt-2 md:mt-4 font-display text-4xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-[3.5rem]">
               Let's Simplify Your{" "}
               <span className="text-gradient-teal">Logistics</span>
             </h2>
-            <p className="mt-6 max-w-xl text-lg font-light text-white/80">
+            <p className="mt-4 md:mt-6 max-w-xl text-lg font-light text-white/80">
               Focus on growing your business while Logiflow manages your
               shipping with speed, reliability and efficiency.
             </p>
-            <div className="mt-9 flex flex-wrap gap-4">
+            <div className="mt-6 md:mt-9 flex flex-wrap gap-4">
               {/* <Button
                 size="lg"
                 className="h-14 rounded-xl bg-white px-8 text-base font-semibold text-navy hover:bg-white/90"
@@ -107,7 +107,7 @@ export const FinalCta = () => {
             </p>
           </div>
           <form
-            className="relative rounded-3xl border border-white/10 bg-white p-8 text-navy shadow-lift sm:p-9"
+            className="relative rounded-3xl border border-white/10 bg-white p-5 text-navy shadow-lift sm:p-9"
             onSubmit={handleSubmit}
           >
             <div className="pointer-events-none absolute -inset-px -z-10 rounded-3xl bg-gradient-to-br from-teal-bright/40 via-transparent to-teal/30 opacity-60 blur-xl" />

@@ -15,7 +15,7 @@ const partners = [
 ];
 
 export const TrustStrip = () => (
-  <section className="border-y border-border bg-white py-16">
+  <section className="border-y border-border bg-white py-12 md:py-16">
     <div className="mx-auto max-w-7xl px-6 lg:px-12">
       <div className="text-center">
         <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Trusted partners</span>

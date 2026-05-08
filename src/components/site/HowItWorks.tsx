@@ -5,7 +5,7 @@ const steps = [
 ];
 
 export const HowItWorks = () => (
-  <section id="how" className="bg-white py-28">
+  <section id="how" className="bg-white py-12 md:py-24">
     <div className="mx-auto max-w-7xl px-6 lg:px-12">
       <div className="max-w-2xl">
         <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">How it works</span>
@@ -17,11 +17,11 @@ export const HowItWorks = () => (
         </p>
       </div>
 
-      <div className="relative mt-20">
-        <div className="grid gap-8 lg:grid-cols-3 lg:gap-6">
+      <div className="relative mt-10 md:mt-20">
+        <div className="grid gap-4 md:gap-8 lg:grid-cols-3 lg:gap-6">
           {steps.map((s, i) => (
             <div key={s.n} className="relative">
-              <div className="relative h-full rounded-2xl border border-border/60 bg-white p-8 shadow-soft transition duration-300 hover:-translate-y-1 hover:border-teal/30 hover:shadow-lift">
+              <div className="relative h-full rounded-2xl border border-border/60 bg-white p-5 md:p-8 shadow-soft transition duration-300 hover:-translate-y-1 hover:border-teal/30 hover:shadow-lift">
                 <div className="flex items-center gap-4">
                   <div className="relative grid h-14 w-14 place-items-center rounded-2xl bg-accent-gradient text-white shadow-glow">
                     <span className="font-display text-base font-extrabold">{s.n}</span>

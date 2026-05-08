@@ -12,7 +12,7 @@ const reasons = [
 ];
 
 export const WhyUs = () => (
-  <section id="why" className="relative isolate overflow-hidden bg-[hsl(var(--navy-deep))] py-28 text-white">
+  <section id="why" className="relative isolate overflow-hidden bg-[hsl(var(--navy-deep))] py-12 md:py-24 text-white">
     <img
       src={trucks}
       alt="Fleet of cargo trucks at an Indian logistics hub at dusk"

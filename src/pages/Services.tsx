@@ -39,7 +39,7 @@ const Services = () => (
       subtitle="Logiflow Pvt. Ltd. operates as a logistics aggregator, connecting businesses with multiple courier and cargo partners to execute reliable, cost-efficient, pan-India deliveries."
     />
 
-    <section className="bg-white py-24">
+    <section className="bg-white py-12 md:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         <div className="max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Overview</span>
@@ -53,7 +53,7 @@ const Services = () => (
       </div>
     </section>
 
-    <section className="bg-soft-gradient py-24">
+    <section className="bg-soft-gradient py-10 md:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         <div className="max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Core Services</span>
@@ -75,7 +75,7 @@ const Services = () => (
       </div>
     </section>
 
-    <section className="bg-white py-24">
+    <section className="bg-white py-12 md:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         <div className="max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Execution Model</span>
@@ -97,7 +97,7 @@ const Services = () => (
       </div>
     </section>
 
-    <section className="bg-soft-gradient py-24">
+    <section className="bg-soft-gradient py-12 md:py-24">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-2 lg:px-12">
         <div>
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Why this works</span>
@@ -112,15 +112,15 @@ const Services = () => (
             ))}
           </ul>
         </div>
-        <div className="rounded-3xl border border-border/60 bg-white p-8 shadow-soft">
+        <div className="rounded-3xl border border-border/60 bg-white p-4 md:p-8 shadow-soft">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-teal">Who we support</span>
           <h3 className="mt-3 font-display text-2xl font-extrabold tracking-tight text-navy">Built for businesses that ship regularly</h3>
           <div className="mt-6 flex flex-wrap gap-2.5">
             {audience.map((a) => (
-              <span key={a} className="rounded-full border border-teal/25 bg-teal-soft px-4 py-2 text-sm font-semibold text-navy">{a}</span>
+              <span key={a} className="rounded-full border border-teal/25 bg-teal-soft px-2 md:px-4 py-1 md:py-2 text-xs md:text-sm font-semibold text-navy">{a}</span>
             ))}
           </div>
-          <div className="mt-8 rounded-2xl bg-soft-gradient p-6">
+          <div className="mt-8 rounded-2xl bg-soft-gradient p-4 md:p-6">
             <h4 className="font-display text-lg font-extrabold text-navy">Operational Commitment</h4>
             <p className="mt-2 text-[15px] leading-relaxed text-muted-foreground">
               We focus on structured logistics execution through partner coordination, ensuring consistent pickup, routing, and delivery performance across India.

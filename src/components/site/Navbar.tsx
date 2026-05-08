@@ -38,7 +38,7 @@ export const Navbar = () => {
           <a href="tel:+916262762626" className="hidden items-center gap-2 text-sm font-semibold text-navy md:inline-flex">
             <Phone className="h-4 w-4 text-teal" /> +91-62627-62626
           </a>
-          <Button asChild className="bg-accent-gradient font-semibold text-white shadow-glow hover:opacity-95">
+          <Button asChild className="hidden md:block bg-accent-gradient font-semibold text-white shadow-glow hover:opacity-95">
             <Link to="/contact">Request a Callback</Link>
           </Button>
           <button

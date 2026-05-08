@@ -10,7 +10,7 @@ const items = [
 ];
 
 export const Industries = () => (
-  <section id="industries" className="bg-soft-gradient py-28">
+  <section id="industries" className="bg-soft-gradient py-12 md:py-24">
     <div className="mx-auto max-w-7xl px-6 lg:px-12">
       <div className="grid items-stretch gap-12 lg:grid-cols-[1.1fr_1fr]">
         <div className="flex flex-col justify-center">

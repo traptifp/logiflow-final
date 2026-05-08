@@ -32,7 +32,7 @@ const small = [
 ];
 
 export const Services = () => (
-  <section id="services" className="bg-soft-gradient py-28">
+  <section id="services" className="bg-soft-gradient py-12 md:py-20">
     <div className="mx-auto max-w-7xl px-6 lg:px-12">
       <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
         <div className="max-w-2xl">
@@ -52,7 +52,7 @@ export const Services = () => (
 
       <div className="mt-16 grid gap-6 lg:grid-cols-3 lg:grid-rows-2">
         {/* Hero feature block */}
-        <div className="group relative overflow-hidden rounded-3xl bg-cta-gradient p-10 text-white shadow-lift lg:col-span-2 lg:row-span-2">
+        <div className="group relative overflow-hidden rounded-3xl bg-cta-gradient p-5 md:p-10 text-white shadow-lift lg:col-span-2 lg:row-span-2">
           <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-teal-bright/30 blur-3xl" />
           <div className="absolute -bottom-24 -left-12 h-72 w-72 rounded-full bg-teal/20 blur-3xl" />
           <div className="relative flex h-full flex-col justify-between gap-10">
@@ -60,7 +60,7 @@ export const Services = () => (
               <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-teal-bright backdrop-blur">
                 <MapPin className="h-7 w-7" strokeWidth={2} />
               </div>
-              <h3 className="mt-6 font-display text-3xl font-extrabold leading-[1.05] tracking-tight sm:text-4xl">
+              <h3 className="mt-6 font-display text-2xl font-extrabold leading-[1.05] tracking-tight sm:text-4xl">
                 Pan-India Coverage
               </h3>
               <p className="mt-4 max-w-md text-base leading-relaxed text-white/75">
@@ -69,9 +69,9 @@ export const Services = () => (
               </p>
             </div>
             <div className="flex flex-wrap items-end justify-between gap-6">
-              <div className="grid grid-cols-2 gap-x-10 gap-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
                 <div>
-                  <div className="font-display text-3xl font-black text-white">
+                  <div className="font-display text-lg md:text-xl font-black text-white">
                     Anywhere-to-Anywhere 
                   </div>
                   <div className="text-xs uppercase tracking-widest text-white/55">
@@ -79,7 +79,7 @@ export const Services = () => (
                   </div>
                 </div>
                 <div>
-                  <div className="font-display text-3xl font-black text-white">
+                  <div className="font-display text-lg  md:text-xl font-black text-white">
                     Multi-Courier 
                   </div>
                   <div className="text-xs uppercase tracking-widest text-white/55">
